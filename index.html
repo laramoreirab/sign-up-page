@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5e045f87ce.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Sign up page</title>
+</head>
+<body>
+     <div class="form-container">
+        <form action="/action_page.php" method="post" enctype="application/x-www-form-urlencoded">
+            <h1>Olá,</h1> 
+            <h1>Crie sua conta agora!</h1>
+            <div class="icons-box">
+                <div id="googstyle"><i class="fa-brands fa-google fa-xl"></i>
+                <p>Sign up with Google</p>
+                </div>
+                <div id="facestyle"><i class="fa-brands fa-facebook fa-xl"></i></div>
+                <div id="instastyle"><i class="fa-brands fa-instagram fa-xl"></i></div>
+            </div>    
+            <hr>
+            <div class="box">
+            <label for="pname">Nome</label><br>
+            <input type="text" name="pname" required autofocus>
+            </div>
+            <div class="box-side">
+            <label for="mail"> Email</label><br>
+            <input type="email" name="mail" required>
+            </div>
+            <div class="box">
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" required>
+            </div>
+            <div class="box-side2">
+            <label for="senha2">Confirmar senha</label><br>
+            <input type="password" name="senha2" required>
+            </div>
+            <div class="termos">
+            <label><input type="checkbox" class="boxcheck" required> Eu concordo com os <b><a href="#">Termos de Serviço</a></b>
+            e <b><a href="#">Política de Privacidade</a></b></label>
+            </div>
+            <button type="submit" class="btt-enviar">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
